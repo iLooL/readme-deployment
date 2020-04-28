@@ -10,7 +10,7 @@ const router = require('./routes/index');
 
 // configure app
 const app = express();
-const port = prcoess.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 const mongodb_uri = "mongodb://localhost:27017/readme"; 
 
 app.use(cors());
