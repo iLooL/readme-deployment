@@ -19,7 +19,7 @@ app.use(express.json());
 app.use('/api', router);
 
 // for deployment
-app.use(express.static(path.join(__dirname, "client", "build")));
+app.use(express.static(path.join(__dirname + "api/", "client", "build")));
 
 mongoose.connect(process.env.MONGODB_URI || mongodb_uri, { useNewUrlParser: true, useFindAndModify: false }); 
 mongoose.connection.once('open', function() { 
