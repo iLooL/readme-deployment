@@ -2,7 +2,7 @@
 // mongoimport --jsonArray --db readme --collection articles --file articles.json  
 
 // not sure what this require is for
-// require("dotenv").config();
+require("dotenv").config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
