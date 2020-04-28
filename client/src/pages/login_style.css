@@ -1,0 +1,13 @@
+.login_card {
+	width: 100%;
+	padding: 5%;
+}
+
+.login_card_div {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	height: 100%;
+	width: 40%;
+	display: inline-block;
+}

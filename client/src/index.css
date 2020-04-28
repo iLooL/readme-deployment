@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:wght@600&family=Raleway:ital,wght@1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.bg-church {
+  background-image: linear-gradient(to bottom right, #de6262 0%, #ffb88c 100%) !important;
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: repeat;
+  
+}
+
+.nav-top {
+  vertical-align: top !important;
+}
+
+.navbar-custom ul.navbar-nav>li>a {
+  color: #FBFAFB;
+  transition: 0.3s;
+  font-size: x-large;
+}
+
+.navbar-custom ul.navbar-nav>li>a:hover {
+  color: #FFD4A7;
+  transition: 0.3s;
+}
+
+.navbar-brand {
+  color: #FBFAFB;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: #FFD4A7;
+  transition: 0.3s;
+}
+
+.text-font-family {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-font-family {
+  font-family: 'Arvo', serif;
+  
+  color: hsl(30, 90%, 69%);
+  text-shadow: 0 3px 1px #d29659, 
+      -1px 4px 1px #767676, 
+      -2px 5px 1px #787878, 
+      -3px 6px 1px #7a7a7a;
+      
+}
+
+.navbar-font-family {
+  font-family: 'Montserrat', sans-serif;
+}
+.article-preview :hover {
+  text-decoration: none;
+}
+
+.custom-login {
+  color: #FBFAFB;
+  transition: 0.3s;
+}
+
+.custom-login:hover {
+  color: #FFD4A7;
+  transition: 0.3s;
+}
+
+.card-header {
+  background-color: #FFEABD !important;
+}
+
+.card-header a {
+  color: #413A46 !important;
+  font-size: larger;
+}
+
+.card-header :hover {
+  color: #90839b !important;
+}
+
+.card {
+  border-color: #d29659 !important;
+}
+
+.card-shadow {
+  width: 100%;
+  background-color: #64b5f6;
+}
+
+.landing-text {
+  background-color: #d2965963;
+  height: 200px;
+}
+
+.comment-box {
+  height: 10rem;
+}
